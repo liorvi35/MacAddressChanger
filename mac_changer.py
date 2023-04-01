@@ -1,5 +1,5 @@
 """
-this file contains the implementation for physical address, i.e. MAC (Media Access Control).
+this file contains the implementation for physical address changer, i.e. MAC (Media Access Control) Address changer.
 :author: Lior Vinman
 :version: 1.1
 :date: 01/04/2023
