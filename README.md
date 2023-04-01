@@ -21,7 +21,7 @@ To use the MacAddressChanger program, you need to provide two arguments via flag
 1.  The name of the NIC you want to change, specified using the `-i` or `--interface` flag.
 2.  The new MAC address you want to set, specified using the `-m` or `--mac` flag.
 
-To change the MAC address of a NIC, run the following command:
+To change the MAC address of a NIC, run the following command:<br/>
 `sudo python3 mac_changer.py -i <NIC> -m <MAC>` 
 
 Replace `<NIC>` with the name of the interface you want to change and `<MAC>` with the new MAC address you want to set.
