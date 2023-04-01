@@ -1,13 +1,17 @@
 # MacAddressChanger
 
-The MAC-Address-Changer program is a Python script that allows you to change the MAC (Media Access Control) address of a NIC (network interface card) on a Debian-based system.
+The MAC-Address-Changer program is a Python script that allows you to change the MAC (Media Access Control) address of a NIC (network interface card).
+
+## What is a MAC address? ❓
+
+A MAC address is a unique identifier assigned to network devices, such as computers and routers, to identify them on a network. It is a 48-bit address represented by 12 hexadecimal digits if format: XX:XX:XX:XX:XX:XX. It is used to direct data packets to the correct device and to ensure that the device is authorized to access the network.
 
 ## Requirements
 Before using the MacAddressChanger program, make sure your system meets the following requirements:
 -   Python version 3
 -   Debian-based system
 
-## Building and Installing
+## Building and Installing 🏗️
 You can install the MacAddressChanger program by following these steps:
 
 1.  Clone this repository to your local machine using the following command:<br/>`git clone https://github.com/liorvi35/MacAddressChanger.git` 
@@ -30,11 +34,11 @@ You can also use the keyword `random` to generate a random MAC address.
 <br/>For example: `sudo python3 mac_changer.py -i wlan0 -m random` 
 <br/>This command will set a random MAC address for the `wlan0` interface.
 
-## Skills
+## Skills 🔧
 - Python programming.
 - Version control with Git.
 - Linux command line.
 - Computers-Communication knowledge about MAC addresses.
 
-## Disclaimer
+## Disclaimer ⚠️
 Please note that changing the MAC address of a device without proper authorization may be illegal in some jurisdictions.<br/>Distinction: changing of MAC address will probably also change your local IP (Internet-Protocol) address.<br/>This program is provided for educational purposes only. Use it at your own risk.
