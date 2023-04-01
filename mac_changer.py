@@ -78,7 +78,7 @@ def main():
     if old_mac != new_mac:
         print(f"[+] {opts.inter} has changed MAC from {old_mac} to {new_mac}")
     else:
-        print(f"[-] cannot change MAC on {opts.inter}")
+        print(f"[-] Cannot change MAC on {opts.inter}")
 
 
 if __name__ == "__main__":
